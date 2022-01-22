@@ -1,0 +1,169 @@
+body{
+    font-family: 'Fira Sans Condensed', sans-serif;  
+    padding:30px;
+}
+header{
+    padding:50px 0;
+    display:flex;
+
+}
+.heading-primary{
+    border-left:5px solid;
+    border-image: linear-gradient(orange,tomato);
+    border-image-slice: 1;
+    line-height: 50px;
+    padding-left:8px;
+    letter-spacing:1.2px;
+   
+    
+}
+.heading-primary--main{
+    display: block;
+}
+.heading-primary--sub{
+    display: block;
+    color:orange;
+}
+.header-left{
+    width:50%;
+}
+.header-right{
+    width:50%;
+    padding-left: 15px;;
+}
+.heading-secondary{
+    letter-spacing: 1.1px;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+p{
+    width:60%;
+    line-height:30px;
+  
+}
+
+.btn{
+    display:inline-block;
+    text-decoration: none;
+    color:#fff;
+    background-color: orange;
+    padding:15px 40px;
+    border-radius: 3px;
+    margin-top:40px;
+
+   
+  
+}
+.orange{
+    color:orange;
+}
+.row{
+    display: flex;
+}
+
+.mission{
+   
+    padding:50px 30px;
+   
+    border-radius: 5px;
+    width:30%;
+
+    border-radius: 10px;
+
+    
+    
+    
+}
+.mission:not(:last-child){
+    margin-right:30px;
+}
+.mission__image{
+    width:150px;
+    height:150px;
+}
+.mission--1{
+    background-color: lightblue;
+}
+.mission--2{
+    background-color: lightpink;
+    
+}
+.mission--3{
+    background-color:lightyellow;
+}
+.about{
+    padding:100px 0;
+
+}
+
+.work{
+
+    padding:100px 0;
+    background-image: url(images/pictures/dream-bg.png);
+    background-repeat: no-repeat;
+    display: flex;
+    background-position:start;
+
+}
+.work-left{
+    width:50%;
+}
+.work-right{
+    width:50%;
+}
+.block{
+    display:block;
+}
+.heading-secondary--1{
+    letter-spacing: 1.1px;
+    font-size: 40px;
+   
+}
+.community{
+    padding:100px 0;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    display: flex;
+    background-position:right;
+
+}
+.community-left{
+    width:50%;
+}
+.community-right{
+    width:50%;
+}
+.form{
+    padding:100px 0;
+
+}
+form{
+   margin-left: 600px;
+}
+button{
+    display:inline-block;
+    text-decoration: none;
+    color:#fff;
+    background-color: orange;
+    padding:15px 40px;
+    border-radius: 3px;
+    margin-top:40px;
+    border: none;
+
+}
+footer{
+    text-align: center;
+    padding:30px 0;
+    background-color: black;
+    color:white;
+}
+.white{
+    color:white;
+}
+footer p{
+    margin: 0 auto;
+}
+h4{
+    font-size: 20px;
+}
